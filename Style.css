@@ -21,6 +21,7 @@ body{
 
 nav{
     display: flex;
+    margin: 5px 200px;
     align-items: center;
     justify-content: space-between;
 }
@@ -44,4 +45,41 @@ nav a{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+
+/* Header Section Styles */
+
+.header-section{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+}
+.b-content{
+    max-width: 500px;
+}
+.b-greeting{
+    font-size: 45px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 0;
+}
+.b-name{
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.b-des{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
